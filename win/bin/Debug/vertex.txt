@@ -1,0 +1,35 @@
+Heilongjiang Haerbin 0451 0 352 57 3000
+Jilin NONE 999 0 357 90 2000
+Liaolin Shenyang 024 0 329 118 2400
+Beijing NONE 010 0 301 132 4000
+Tianjing NONE 022 0 308 139 3200
+Hebei Shijiazhuang 0311 0 293 163 3200
+Shandong Jinan 0531 0 308 169 3230
+Jiangsu Nanjing 025 0 335 203 5400
+Shanghai NONE 021 0 347 210 1200
+Anhui Hefei 0551 0 313 216 2300
+Zhejiang Hangzhou 0571 0 332 233 300
+Jiangxi Nanchang 0791 0 294 255 200
+Fujian Fuzhou 0591 0 323 273 3100
+Shanxi Taiyuan 0351 0 273 155 6300
+Henan Zhengzhou 0371 0 282 196 3200
+Hubei Wuhan 027 0 267 223 6540
+Hunan Changsha 0731 0 278 269 3342
+Guangdong Guangzhou 020 0 278 295 323
+Neimenggu Huhehaote 0471 0 247 126 23
+Ningxia Yinchuan 0951 0 230 168 43
+Shaanxi Xian 029 0 246 199 32
+Chongqing NONE 023 0 241 230 43
+Guizhou Guiyang 0851 0 226 267 45
+Guangxi Nanning 0771 0 240 292 34
+Sichuan Chengdu 028 0 193 225 564
+Yunnan Dali 000 0 181 281 433
+Hainan Haikou 0898 0 261 321 234
+Qinghai Xining 0971 0 147 176 543
+Xizang Lasa 0891 0 85 215 4324
+Xinjiang Wulumuqi 0991 0 97 103 423
+Gansu Lanzhou 000 0 212 182 342
+Taiwan NONE 00886 0 349 283 892
+Xianggang NONE 00852
+Aomen NONE 00853
+

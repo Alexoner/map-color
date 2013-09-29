@@ -1,0 +1,991 @@
+gcc   -g -Wall -O2 -static  menu.o graph.o map.o -o menu `pkg-config --libs opencv-static` `pkg-config --libs gtk+-2.0` #-static
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-glocalfileinfo.o): In function `lookup_gid_name':
+/home/administrator/install/glib-2.32.4/gio/glocalfileinfo.c:1172: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-glocalvfs.o): In function `g_local_vfs_parse_name':
+/home/administrator/install/glib-2.32.4/gio/glocalvfs.c:163: warning: Using 'getpwnam' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libglib-2.0.a(gutils.o): In function `g_get_any_init_do':
+/home/administrator/install/glib-2.32.4/glib/gutils.c:833: warning: Using 'getpwuid' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:832: warning: Using 'setpwent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:834: warning: Using 'endpwent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:776: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:782: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gthreadedresolver.o): In function `do_lookup_by_name':
+/home/administrator/install/glib-2.32.4/gio/gthreadedresolver.c:374: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gnetworkaddress.o): In function `g_network_address_parse':
+/home/administrator/install/glib-2.32.4/gio/gnetworkaddress.c:396: warning: Using 'getservbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/gio/gnetworkaddress.c:412: warning: Using 'endservent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `value_to_ffi_type':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1206: undefined reference to `ffi_type_pointer'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1202: undefined reference to `ffi_type_uint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1198: undefined reference to `ffi_type_sint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1160: undefined reference to `ffi_type_sint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1182: undefined reference to `ffi_type_float'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1186: undefined reference to `ffi_type_double'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1168: undefined reference to `ffi_type_uint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1149: undefined reference to `ffi_type_sint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1178: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1409: undefined reference to `ffi_type_void'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1427: undefined reference to `ffi_type_pointer'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1451: undefined reference to `ffi_prep_cif'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1454: undefined reference to `ffi_call'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1436: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic_va':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1489: undefined reference to `ffi_type_void'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1504: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `va_to_ffi_type':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1352: undefined reference to `ffi_type_uint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1348: undefined reference to `ffi_type_sint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1332: undefined reference to `ffi_type_float'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1317: undefined reference to `ffi_type_uint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1336: undefined reference to `ffi_type_double'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1311: undefined reference to `ffi_type_sint32'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic_va':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1547: undefined reference to `ffi_prep_cif'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1550: undefined reference to `ffi_call'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1511: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmain.o): In function `_gtk_module_has_mixed_deps':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:647: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:643: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:647: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:653: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `gtk_module_info_unref':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:394: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `_gtk_find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:203: undefined reference to `g_module_build_path'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_modules':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:403: undefined reference to `g_module_supported'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:240: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:294: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:300: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:371: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:353: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:246: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:321: undefined reference to `g_module_symbol'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:237: undefined reference to `g_module_build_path'
+/usr/local/lib/libgtk-x11-2.0.a(gtkthemes.o): In function `gtk_theme_engine_unload':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:116: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkthemes.o): In function `gtk_theme_engine_load':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:80: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:89: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:91: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:96: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:97: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:93: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:84: undefined reference to `g_module_error'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `_gtk_builder_resolve_type_lazily':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:212: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:194: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `gtk_builder_connect_signals_default':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:984: undefined reference to `g_module_symbol'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `IA__gtk_builder_connect_signals':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1027: undefined reference to `g_module_supported'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1031: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1037: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilderparser.o): In function `_get_type_by_symbol':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilderparser.c:218: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilderparser.c:216: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkimmodule.o): In function `gtk_im_module_load':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:113: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:121: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:123: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:130: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:131: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:125: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:127: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:116: undefined reference to `g_module_error'
+/usr/local/lib/libgtk-x11-2.0.a(gtkimmodule.o): In function `gtk_im_module_unload':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:153: undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpangocairo-1.0.a(libpangocairo_1_0_la-pangocairo-render.o): In function `_pango_cairo_renderer_draw_frame':
+(.text+0x786): undefined reference to `tan'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpangocairo-1.0.a(libpangocairo_1_0_la-pangocairo-render.o): In function `_pango_cairo_renderer_draw_frame':
+(.text+0x990): undefined reference to `tan'
+/usr/local/lib/libgdk_pixbuf-2.0.a(gdk-pixbuf-io.o): In function `gdk_pixbuf_load_module_unlocked':
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:803: undefined reference to `g_module_open'
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:816: undefined reference to `g_module_symbol'
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:806: undefined reference to `g_module_error'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_module_unload_module':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:320: undefined reference to `g_module_close'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_module_load_module':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:284: undefined reference to `g_module_open'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:293: undefined reference to `g_module_symbol'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:296: undefined reference to `g_module_symbol'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:300: undefined reference to `g_module_error'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:301: undefined reference to `g_module_close'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:288: undefined reference to `g_module_error'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_modules_load_all_in_directory_with_scope':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:571: undefined reference to `g_module_supported'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_modules_scan_all_in_directory_with_scope':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:408: undefined reference to `g_module_supported'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gresolver.o): In function `_g_resolver_targets_from_res_query':
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:876: undefined reference to `__dn_expand'
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:884: undefined reference to `__dn_expand'
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:900: undefined reference to `__dn_expand'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gthreadedresolver.o): In function `do_lookup_service':
+gthreadedresolver.c:(.text+0x2b7): undefined reference to `__res_query'
+/usr/local/lib/libcairo.a(cairo.o): In function `cairo_arc':
+/home/administrator/install/cairo-1.12.2/src/cairo.c:1633: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo.o): In function `cairo_arc_negative':
+/home/administrator/install/cairo-1.12.2/src/cairo.c:1678: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-gstate.o): In function `_cairo_gstate_set_dash':
+/home/administrator/install/cairo-1.12.2/src/cairo-gstate.c:585: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_cairo_image_source_finish':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1142: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_set_properties':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:549: undefined reference to `pixman_image_set_transform'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:585: undefined reference to `pixman_image_set_filter'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:607: undefined reference to `pixman_image_set_repeat'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:611: undefined reference to `pixman_image_set_component_alpha'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:547: undefined reference to `pixman_image_set_filter'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_color':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:246: undefined reference to `pixman_image_create_solid_fill'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixel_to_solid':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:494: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:509: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:525: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:481: undefined reference to `pixman_image_create_solid_fill'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_mesh':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:405: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:409: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:410: undefined reference to `pixman_image_get_data'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:880: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:891: undefined reference to `pixman_image_set_destroy_function'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_raster':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1057: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1080: undefined reference to `pixman_image_set_destroy_function'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1086: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_gradient':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:340: undefined reference to `pixman_image_create_radial_gradient'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:358: undefined reference to `pixman_image_set_transform'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:384: undefined reference to `pixman_image_set_repeat'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:967: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:987: undefined reference to `pixman_image_set_destroy_function'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_gradient':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:331: undefined reference to `pixman_image_create_linear_gradient'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_recording':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:785: undefined reference to `pixman_image_ref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:941: undefined reference to `pixman_image_create_bits'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_raster':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1070: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:980: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_finish':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:833: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:155: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:160: undefined reference to `pixman_image_get_width'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:161: undefined reference to `pixman_image_get_height'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:162: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:163: undefined reference to `pixman_image_get_depth'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_pixman_format_from_masks':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:217: undefined reference to `pixman_format_supported_destination'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_create_with_pixman_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:339: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:348: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_snapshot':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:786: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_coerce_to_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:1072: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_compute_basis_scale_factors':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:702: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_transformed_circle_major_axis':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:931: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_to_pixman_matrix':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:1007: undefined reference to `pixman_transform_point_3d'
+/usr/local/lib/libcairo.a(cairo-path-stroke.o): In function `_compute_normalized_device_slope':
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-path-stroke-polygon.o):/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke-polygon.c:925: more undefined references to `hypot' follow
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:156: undefined reference to `pixman_region32_init'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_init_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:167: undefined reference to `pixman_region32_init_rect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:176: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:205: undefined reference to `pixman_region32_init'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:265: undefined reference to `pixman_region32_init_rects'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:243: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:265: undefined reference to `pixman_region32_init_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_create_from_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:291: undefined reference to `pixman_region32_init_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:337: undefined reference to `pixman_region32_init_rect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_copy':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:372: undefined reference to `pixman_region32_copy'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_get_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:476: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_get_extents':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:506: undefined reference to `pixman_region32_extents'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_subtract':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:553: undefined reference to `pixman_region32_subtract'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_subtract_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:585: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:589: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:592: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_intersect':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:618: undefined reference to `pixman_region32_intersect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_intersect_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:647: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:651: undefined reference to `pixman_region32_intersect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:654: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_union':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:681: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_union_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:709: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:713: undefined reference to `pixman_region32_union'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:716: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_xor':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:747: undefined reference to `pixman_region32_init'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:750: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:755: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:751: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:752: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_xor_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:784: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:787: undefined reference to `pixman_region32_init'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:790: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:795: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:796: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:791: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:792: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_is_empty':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:818: undefined reference to `pixman_region32_not_empty'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_contains_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:885: undefined reference to `pixman_region32_contains_rectangle'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_contains_point':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:917: undefined reference to `pixman_region32_contains_point'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_get_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:308: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_num_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:449: undefined reference to `pixman_region32_n_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_translate':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:839: undefined reference to `pixman_region32_translate'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_equal':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:948: undefined reference to `pixman_region32_equal'
+/usr/local/lib/libcairo.a(cairo-stroke-style.o): In function `_cairo_stroke_style_max_distance_from_path':
+/home/administrator/install/cairo-1.12.2/src/cairo-stroke-style.c:125: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-stroke-style.c:126: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-xlib-surface.o): In function `_cairo_xlib_surface_draw_image':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1065: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1072: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1084: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1085: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1222: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-ft-font.o): In function `_get_bitmap_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-ft-font.c:1221: undefined reference to `pixman_image_set_component_alpha'
+/usr/local/lib/libcairo.a(cairo-arc.o): In function `_cairo_arc_segment':
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:166: undefined reference to `tan'
+/usr/local/lib/libcairo.a(cairo-arc.o): In function `_cairo_arc_in_direction':
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:193: undefined reference to `fmod'
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:192: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_unbounded_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1750: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1759: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1769: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1779: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1739: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o):/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:442: more undefined references to `pixman_image_composite32' follow
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2682: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:523: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:532: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `draw_image_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:115: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:106: undefined reference to `pixman_blt'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1719: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_finish_unbounded_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1797: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_inplace_src_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2332: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2338: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2370: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o):/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2376: more undefined references to `pixman_image_composite32' follow
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_inplace_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2244: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2257: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2235: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_fill32_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1571: undefined reference to `pixman_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1585: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:392: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:399: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `set_clip_region':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:80: undefined reference to `pixman_image_set_clip_region32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:997: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs_via_mask':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:843: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:883: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:892: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:899: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:911: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:924: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:932: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:837: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:922: undefined reference to `pixman_image_set_component_alpha'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_one_glyph':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:798: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs_via_mask':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:870: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:888: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_fill_xrgb32_lerp_opaque_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2014: undefined reference to `pixman_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2034: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `fill_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:303: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:311: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:290: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `fill_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:357: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:366: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:339: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2630: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2649: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2650: undefined reference to `pixman_image_get_stride'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `inplace_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2516: undefined reference to `pixman_image_create_bits'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2638: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2622: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2614: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `inplace_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2520: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_pixman_image_add_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:618: undefined reference to `pixman_rasterize_trapezoid'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:658: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:665: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:672: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_pixman_image_add_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:696: undefined reference to `pixman_add_triangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:699: undefined reference to `pixman_add_triangles'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:734: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:741: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:748: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2684: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-mask-compositor.o): In function `fixup_unbounded_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-mask-compositor.c:642: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:718: undefined reference to `XRenderFreeGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_glyph_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:809: undefined reference to `XRenderFreeGlyphs'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `composite_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1694: undefined reference to `XRenderCompositeTriStrip'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `fill_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:487: undefined reference to `XRenderFillRectangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:453: undefined reference to `XRenderFillRectangle'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `fill_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:414: undefined reference to `XRenderFillRectangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:391: undefined reference to `XRenderFillRectangle'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:414: undefined reference to `XRenderFillRectangles'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `composite_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1634: undefined reference to `XRenderCompositeTrapezoids'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_emit_glyphs_chunk':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1177: undefined reference to `XRenderCompositeText32'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_surface_add_glyph':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1077: undefined reference to `XRenderAddGlyphs'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_get_glyphset_info_for_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:869: undefined reference to `XRenderCreateGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_close':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:688: undefined reference to `XRenderFreeGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o):(.rodata+0x190): undefined reference to `XRenderCompositeText8'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o):(.rodata+0x198): undefined reference to `XRenderCompositeText16'
+/usr/local/lib/libcairo.a(cairo-xlib-source.o): In function `picture_set_filter':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/usr/local/lib/libX11.a(ClDisplay.o): In function `XCloseDisplay':
+/home/administrator/install/libX11-1.4.99.1/src/ClDisplay.c:71: undefined reference to `xcb_disconnect'
+/usr/local/lib/libX11.a(CrGlCur.o): In function `open_library':
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:74: undefined reference to `dlopen'
+/usr/local/lib/libX11.a(CrGlCur.o): In function `fetch_symbol':
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:109: undefined reference to `dlsym'
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:111: undefined reference to `dlsym'
+/usr/local/lib/libX11.a(OpenDis.o): In function `OutOfMemory':
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:737: undefined reference to `xcb_disconnect'
+/usr/local/lib/libX11.a(OpenDis.o): In function `XOpenDisplay':
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:276: undefined reference to `xcb_get_setup'
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:521: undefined reference to `xcb_get_maximum_request_length'
+/usr/local/lib/libX11.a(xcb_disp.o): In function `_XConnectXCB':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:69: undefined reference to `xcb_parse_display'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:76: undefined reference to `xcb_connect_to_display_with_auth_info'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:81: undefined reference to `xcb_get_file_descriptor'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:84: undefined reference to `xcb_generate_id'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:92: undefined reference to `xcb_connection_has_error'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:78: undefined reference to `xcb_connect'
+/usr/local/lib/libX11.a(xcb_io.o): In function `require_socket':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:67: undefined reference to `xcb_take_socket'
+/usr/local/lib/libX11.a(xcb_io.o): In function `poll_for_event':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:256: undefined reference to `xcb_poll_for_event'
+/usr/local/lib/libX11.a(xcb_io.o): In function `poll_for_response':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:291: undefined reference to `xcb_poll_for_reply'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XSend':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:494: undefined reference to `xcb_writev'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XReadEvents':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:441: undefined reference to `xcb_connection_has_error'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:400: undefined reference to `xcb_wait_for_event'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XEventsQueued':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:364: undefined reference to `xcb_connection_has_error'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XAllocIDs':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:544: undefined reference to `xcb_generate_id'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XReply':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:601: undefined reference to `xcb_wait_for_reply'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_unload':
+(.text+0xf3): undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x189): undefined reference to `g_module_open'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1a7): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1d0): undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1fe): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x214): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x22a): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x26e): undefined reference to `g_module_error'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x2a9): undefined reference to `g_module_error'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(libpango_thai_lang_la-thai-lang.o): In function `thai_engine_break':
+(.text+0x8b): undefined reference to `th_uni2tis'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(libpango_thai_lang_la-thai-lang.o): In function `thai_engine_break':
+(.text+0xe4): undefined reference to `th_brk'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `FcFreeTypeUseNames':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:2068: undefined reference to `FT_Has_PS_Glyph_Names'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:2068: undefined reference to `FT_Has_PS_Glyph_Names'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `IA__FcFreeTypeQueryFace':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1495: undefined reference to `FT_Get_PS_Font_Info'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1649: undefined reference to `FT_Get_BDF_Property'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1670: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `FcGetPixelSize':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1034: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `IA__FcFreeTypeQueryFace':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1530: undefined reference to `FT_Get_BDF_Property'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1537: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o):/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1560: more undefined references to `FT_Get_BDF_Property' follow
+/usr/local/lib/libfontconfig.a(fcxml.o): In function `FcConfigMessage':
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:503: undefined reference to `xmlSAX2GetLineNumber'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:506: undefined reference to `xmlSAX2GetLineNumber'
+/usr/local/lib/libfontconfig.a(fcxml.o): In function `IA__FcConfigParseAndLoad':
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2926: undefined reference to `xmlCreatePushParserCtxt'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2965: undefined reference to `xmlParseChunk'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2979: undefined reference to `xmlFreeParserCtxt'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2971: undefined reference to `xmlCtxtGetLastError'
+collect2: ld returned 1 exit status
+make: *** [menu] Error 1
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-glocalfileinfo.o): In function `lookup_gid_name':
+/home/administrator/install/glib-2.32.4/gio/glocalfileinfo.c:1172: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-glocalvfs.o): In function `g_local_vfs_parse_name':
+/home/administrator/install/glib-2.32.4/gio/glocalvfs.c:163: warning: Using 'getpwnam' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libglib-2.0.a(gutils.o): In function `g_get_any_init_do':
+/home/administrator/install/glib-2.32.4/glib/gutils.c:833: warning: Using 'getpwuid' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:832: warning: Using 'setpwent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:834: warning: Using 'endpwent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:776: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/glib/gutils.c:782: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gthreadedresolver.o): In function `do_lookup_by_name':
+/home/administrator/install/glib-2.32.4/gio/gthreadedresolver.c:374: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gnetworkaddress.o): In function `g_network_address_parse':
+/home/administrator/install/glib-2.32.4/gio/gnetworkaddress.c:396: warning: Using 'getservbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/home/administrator/install/glib-2.32.4/gio/gnetworkaddress.c:412: warning: Using 'endservent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `value_to_ffi_type':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1206: undefined reference to `ffi_type_pointer'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1202: undefined reference to `ffi_type_uint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1198: undefined reference to `ffi_type_sint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1160: undefined reference to `ffi_type_sint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1182: undefined reference to `ffi_type_float'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1186: undefined reference to `ffi_type_double'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1168: undefined reference to `ffi_type_uint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1149: undefined reference to `ffi_type_sint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1178: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1409: undefined reference to `ffi_type_void'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1427: undefined reference to `ffi_type_pointer'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1451: undefined reference to `ffi_prep_cif'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1454: undefined reference to `ffi_call'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1436: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic_va':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1489: undefined reference to `ffi_type_void'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1504: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `va_to_ffi_type':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1352: undefined reference to `ffi_type_uint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1348: undefined reference to `ffi_type_sint64'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1332: undefined reference to `ffi_type_float'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1317: undefined reference to `ffi_type_uint32'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1336: undefined reference to `ffi_type_double'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1311: undefined reference to `ffi_type_sint32'
+/usr/local/lib/libgobject-2.0.a(libgobject_2_0_la-gclosure.o): In function `g_cclosure_marshal_generic_va':
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1547: undefined reference to `ffi_prep_cif'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1550: undefined reference to `ffi_call'
+/home/administrator/install/glib-2.32.4/gobject/gclosure.c:1511: undefined reference to `ffi_type_pointer'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmain.o): In function `_gtk_module_has_mixed_deps':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:647: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:643: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:647: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmain.c:653: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `gtk_module_info_unref':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:394: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `_gtk_find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:203: undefined reference to `g_module_build_path'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_modules':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:403: undefined reference to `g_module_supported'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:240: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:294: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:300: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:371: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:353: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:246: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `load_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:321: undefined reference to `g_module_symbol'
+/usr/local/lib/libgtk-x11-2.0.a(gtkmodules.o): In function `find_module':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkmodules.c:237: undefined reference to `g_module_build_path'
+/usr/local/lib/libgtk-x11-2.0.a(gtkthemes.o): In function `gtk_theme_engine_unload':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:116: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkthemes.o): In function `gtk_theme_engine_load':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:80: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:89: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:91: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:96: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:97: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:93: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkthemes.c:84: undefined reference to `g_module_error'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `_gtk_builder_resolve_type_lazily':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:212: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:194: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `gtk_builder_connect_signals_default':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:984: undefined reference to `g_module_symbol'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilder.o): In function `IA__gtk_builder_connect_signals':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1027: undefined reference to `g_module_supported'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1031: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilder.c:1037: undefined reference to `g_module_close'
+/usr/local/lib/libgtk-x11-2.0.a(gtkbuilderparser.o): In function `_get_type_by_symbol':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilderparser.c:218: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkbuilderparser.c:216: undefined reference to `g_module_open'
+/usr/local/lib/libgtk-x11-2.0.a(gtkimmodule.o): In function `gtk_im_module_load':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:113: undefined reference to `g_module_open'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:121: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:123: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:130: undefined reference to `g_module_error'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:131: undefined reference to `g_module_close'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:125: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:127: undefined reference to `g_module_symbol'
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:116: undefined reference to `g_module_error'
+/usr/local/lib/libgtk-x11-2.0.a(gtkimmodule.o): In function `gtk_im_module_unload':
+/home/administrator/install/gtk+-2.24.11/gtk/gtkimmodule.c:153: undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpangocairo-1.0.a(libpangocairo_1_0_la-pangocairo-render.o): In function `_pango_cairo_renderer_draw_frame':
+(.text+0x786): undefined reference to `tan'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpangocairo-1.0.a(libpangocairo_1_0_la-pangocairo-render.o): In function `_pango_cairo_renderer_draw_frame':
+(.text+0x990): undefined reference to `tan'
+/usr/local/lib/libgdk_pixbuf-2.0.a(gdk-pixbuf-io.o): In function `gdk_pixbuf_load_module_unlocked':
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:803: undefined reference to `g_module_open'
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:816: undefined reference to `g_module_symbol'
+/home/administrator/install/gdk-pixbuf-2.26.3/gdk-pixbuf/gdk-pixbuf-io.c:806: undefined reference to `g_module_error'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_module_unload_module':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:320: undefined reference to `g_module_close'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_module_load_module':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:284: undefined reference to `g_module_open'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:293: undefined reference to `g_module_symbol'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:296: undefined reference to `g_module_symbol'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:300: undefined reference to `g_module_error'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:301: undefined reference to `g_module_close'
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:288: undefined reference to `g_module_error'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_modules_load_all_in_directory_with_scope':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:571: undefined reference to `g_module_supported'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-giomodule.o): In function `g_io_modules_scan_all_in_directory_with_scope':
+/home/administrator/install/glib-2.32.4/gio/giomodule.c:408: undefined reference to `g_module_supported'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gresolver.o): In function `_g_resolver_targets_from_res_query':
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:876: undefined reference to `__dn_expand'
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:884: undefined reference to `__dn_expand'
+/home/administrator/install/glib-2.32.4/gio/gresolver.c:900: undefined reference to `__dn_expand'
+/usr/local/lib/libgio-2.0.a(libgio_2_0_la-gthreadedresolver.o): In function `do_lookup_service':
+gthreadedresolver.c:(.text+0x2b7): undefined reference to `__res_query'
+/usr/local/lib/libcairo.a(cairo.o): In function `cairo_arc':
+/home/administrator/install/cairo-1.12.2/src/cairo.c:1633: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo.o): In function `cairo_arc_negative':
+/home/administrator/install/cairo-1.12.2/src/cairo.c:1678: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-gstate.o): In function `_cairo_gstate_set_dash':
+/home/administrator/install/cairo-1.12.2/src/cairo-gstate.c:585: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_cairo_image_source_finish':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1142: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_set_properties':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:549: undefined reference to `pixman_image_set_transform'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:585: undefined reference to `pixman_image_set_filter'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:607: undefined reference to `pixman_image_set_repeat'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:611: undefined reference to `pixman_image_set_component_alpha'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:547: undefined reference to `pixman_image_set_filter'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_color':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:246: undefined reference to `pixman_image_create_solid_fill'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixel_to_solid':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:494: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:509: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:525: undefined reference to `pixman_image_create_solid_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:481: undefined reference to `pixman_image_create_solid_fill'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_mesh':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:405: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:409: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:410: undefined reference to `pixman_image_get_data'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:880: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:891: undefined reference to `pixman_image_set_destroy_function'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_raster':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1057: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1080: undefined reference to `pixman_image_set_destroy_function'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1086: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_gradient':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:340: undefined reference to `pixman_image_create_radial_gradient'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:358: undefined reference to `pixman_image_set_transform'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:384: undefined reference to `pixman_image_set_repeat'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:967: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:987: undefined reference to `pixman_image_set_destroy_function'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_gradient':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:331: undefined reference to `pixman_image_create_linear_gradient'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_recording':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:785: undefined reference to `pixman_image_ref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:941: undefined reference to `pixman_image_create_bits'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_raster':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:1070: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-source.o): In function `_pixman_image_for_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-source.c:980: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_finish':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:833: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:155: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:160: undefined reference to `pixman_image_get_width'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:161: undefined reference to `pixman_image_get_height'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:162: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:163: undefined reference to `pixman_image_get_depth'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_pixman_format_from_masks':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:217: undefined reference to `pixman_format_supported_destination'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_create_with_pixman_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:339: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:348: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_snapshot':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:786: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-surface.o): In function `_cairo_image_surface_coerce_to_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-surface.c:1072: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_compute_basis_scale_factors':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:702: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_transformed_circle_major_axis':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:931: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-matrix.o): In function `_cairo_matrix_to_pixman_matrix':
+/home/administrator/install/cairo-1.12.2/src/cairo-matrix.c:1007: undefined reference to `pixman_transform_point_3d'
+/usr/local/lib/libcairo.a(cairo-path-stroke.o): In function `_compute_normalized_device_slope':
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke.c:729: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-path-stroke-polygon.o):/home/administrator/install/cairo-1.12.2/src/cairo-path-stroke-polygon.c:925: more undefined references to `hypot' follow
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:156: undefined reference to `pixman_region32_init'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_init_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:167: undefined reference to `pixman_region32_init_rect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:176: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:205: undefined reference to `pixman_region32_init'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:265: undefined reference to `pixman_region32_init_rects'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:243: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:265: undefined reference to `pixman_region32_init_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_create_from_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:291: undefined reference to `pixman_region32_init_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_create_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:337: undefined reference to `pixman_region32_init_rect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_copy':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:372: undefined reference to `pixman_region32_copy'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_get_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:476: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_get_extents':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:506: undefined reference to `pixman_region32_extents'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_subtract':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:553: undefined reference to `pixman_region32_subtract'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_subtract_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:585: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:589: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:592: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_intersect':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:618: undefined reference to `pixman_region32_intersect'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_intersect_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:647: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:651: undefined reference to `pixman_region32_intersect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:654: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_union':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:681: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_union_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:709: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:713: undefined reference to `pixman_region32_union'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:716: undefined reference to `pixman_region32_fini'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_xor':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:747: undefined reference to `pixman_region32_init'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:750: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:755: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:751: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:752: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_xor_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:784: undefined reference to `pixman_region32_init_rect'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:787: undefined reference to `pixman_region32_init'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:790: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:795: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:796: undefined reference to `pixman_region32_fini'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:791: undefined reference to `pixman_region32_subtract'
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:792: undefined reference to `pixman_region32_union'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_is_empty':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:818: undefined reference to `pixman_region32_not_empty'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_contains_rectangle':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:885: undefined reference to `pixman_region32_contains_rectangle'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_contains_point':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:917: undefined reference to `pixman_region32_contains_point'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `_cairo_region_get_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:308: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_num_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:449: undefined reference to `pixman_region32_n_rects'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `INT_cairo_region_translate':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:839: undefined reference to `pixman_region32_translate'
+/usr/local/lib/libcairo.a(cairo-region.o): In function `*INT_cairo_region_equal':
+/home/administrator/install/cairo-1.12.2/src/cairo-region.c:948: undefined reference to `pixman_region32_equal'
+/usr/local/lib/libcairo.a(cairo-stroke-style.o): In function `_cairo_stroke_style_max_distance_from_path':
+/home/administrator/install/cairo-1.12.2/src/cairo-stroke-style.c:125: undefined reference to `hypot'
+/home/administrator/install/cairo-1.12.2/src/cairo-stroke-style.c:126: undefined reference to `hypot'
+/usr/local/lib/libcairo.a(cairo-xlib-surface.o): In function `_cairo_xlib_surface_draw_image':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1065: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1072: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1084: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1085: undefined reference to `pixman_image_get_stride'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-surface.c:1222: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-ft-font.o): In function `_get_bitmap_surface':
+/home/administrator/install/cairo-1.12.2/src/cairo-ft-font.c:1221: undefined reference to `pixman_image_set_component_alpha'
+/usr/local/lib/libcairo.a(cairo-arc.o): In function `_cairo_arc_segment':
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:166: undefined reference to `tan'
+/usr/local/lib/libcairo.a(cairo-arc.o): In function `_cairo_arc_in_direction':
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:193: undefined reference to `fmod'
+/home/administrator/install/cairo-1.12.2/src/cairo-arc.c:192: undefined reference to `fmod'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_unbounded_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1750: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1759: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1769: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1779: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1739: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o):/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:442: more undefined references to `pixman_image_composite32' follow
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2682: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:523: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:532: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `draw_image_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:115: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:106: undefined reference to `pixman_blt'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1719: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_mono_finish_unbounded_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1797: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_inplace_src_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2332: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2338: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2370: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o):/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2376: more undefined references to `pixman_image_composite32' follow
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_inplace_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2244: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2257: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2235: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_fill32_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1571: undefined reference to `pixman_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:1585: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:392: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:399: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `set_clip_region':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:80: undefined reference to `pixman_image_set_clip_region32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:997: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs_via_mask':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:843: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:883: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:892: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:899: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:911: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:924: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:932: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:837: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:922: undefined reference to `pixman_image_set_component_alpha'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_one_glyph':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:798: undefined reference to `pixman_image_composite32'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_glyphs_via_mask':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:870: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:888: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_fill_xrgb32_lerp_opaque_spans':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2014: undefined reference to `pixman_fill'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2034: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `fill_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:303: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:311: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:290: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `fill_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:357: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:366: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:339: undefined reference to `pixman_fill'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2630: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2649: undefined reference to `pixman_image_get_data'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2650: undefined reference to `pixman_image_get_stride'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `inplace_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2516: undefined reference to `pixman_image_create_bits'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2638: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2622: undefined reference to `pixman_image_unref'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2614: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `inplace_renderer_init':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2520: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_pixman_image_add_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:618: undefined reference to `pixman_rasterize_trapezoid'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:658: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:665: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:672: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `_pixman_image_add_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:696: undefined reference to `pixman_add_triangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:699: undefined reference to `pixman_add_triangles'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `composite_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:734: undefined reference to `pixman_image_create_bits'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:741: undefined reference to `pixman_image_composite32'
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:748: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-image-compositor.o): In function `span_renderer_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-image-compositor.c:2684: undefined reference to `pixman_image_unref'
+/usr/local/lib/libcairo.a(cairo-mask-compositor.o): In function `fixup_unbounded_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-mask-compositor.c:642: undefined reference to `pixman_region32_rectangles'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:718: undefined reference to `XRenderFreeGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_glyph_fini':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:809: undefined reference to `XRenderFreeGlyphs'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `composite_tristrip':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1694: undefined reference to `XRenderCompositeTriStrip'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `fill_boxes':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:487: undefined reference to `XRenderFillRectangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:453: undefined reference to `XRenderFillRectangle'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `fill_rectangles':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:414: undefined reference to `XRenderFillRectangles'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:391: undefined reference to `XRenderFillRectangle'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:414: undefined reference to `XRenderFillRectangles'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `composite_traps':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1634: undefined reference to `XRenderCompositeTrapezoids'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_emit_glyphs_chunk':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1177: undefined reference to `XRenderCompositeText32'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_surface_add_glyph':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:1077: undefined reference to `XRenderAddGlyphs'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_get_glyphset_info_for_format':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:869: undefined reference to `XRenderCreateGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o): In function `_cairo_xlib_font_close':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-render-compositor.c:688: undefined reference to `XRenderFreeGlyphSet'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o):(.rodata+0x190): undefined reference to `XRenderCompositeText8'
+/usr/local/lib/libcairo.a(cairo-xlib-render-compositor.o):(.rodata+0x198): undefined reference to `XRenderCompositeText16'
+/usr/local/lib/libcairo.a(cairo-xlib-source.o): In function `picture_set_filter':
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/home/administrator/install/cairo-1.12.2/src/cairo-xlib-source.c:197: undefined reference to `XRenderSetPictureFilter'
+/usr/local/lib/libX11.a(ClDisplay.o): In function `XCloseDisplay':
+/home/administrator/install/libX11-1.4.99.1/src/ClDisplay.c:71: undefined reference to `xcb_disconnect'
+/usr/local/lib/libX11.a(CrGlCur.o): In function `open_library':
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:74: undefined reference to `dlopen'
+/usr/local/lib/libX11.a(CrGlCur.o): In function `fetch_symbol':
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:109: undefined reference to `dlsym'
+/home/administrator/install/libX11-1.4.99.1/src/CrGlCur.c:111: undefined reference to `dlsym'
+/usr/local/lib/libX11.a(OpenDis.o): In function `OutOfMemory':
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:737: undefined reference to `xcb_disconnect'
+/usr/local/lib/libX11.a(OpenDis.o): In function `XOpenDisplay':
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:276: undefined reference to `xcb_get_setup'
+/home/administrator/install/libX11-1.4.99.1/src/OpenDis.c:521: undefined reference to `xcb_get_maximum_request_length'
+/usr/local/lib/libX11.a(xcb_disp.o): In function `_XConnectXCB':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:69: undefined reference to `xcb_parse_display'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:76: undefined reference to `xcb_connect_to_display_with_auth_info'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:81: undefined reference to `xcb_get_file_descriptor'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:84: undefined reference to `xcb_generate_id'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:92: undefined reference to `xcb_connection_has_error'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_disp.c:78: undefined reference to `xcb_connect'
+/usr/local/lib/libX11.a(xcb_io.o): In function `require_socket':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:67: undefined reference to `xcb_take_socket'
+/usr/local/lib/libX11.a(xcb_io.o): In function `poll_for_event':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:256: undefined reference to `xcb_poll_for_event'
+/usr/local/lib/libX11.a(xcb_io.o): In function `poll_for_response':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:291: undefined reference to `xcb_poll_for_reply'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XSend':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:494: undefined reference to `xcb_writev'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XReadEvents':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:441: undefined reference to `xcb_connection_has_error'
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:400: undefined reference to `xcb_wait_for_event'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XEventsQueued':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:364: undefined reference to `xcb_connection_has_error'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XAllocIDs':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:544: undefined reference to `xcb_generate_id'
+/usr/local/lib/libX11.a(xcb_io.o): In function `_XReply':
+/home/administrator/install/libX11-1.4.99.1/src/xcb_io.c:601: undefined reference to `xcb_wait_for_reply'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_unload':
+(.text+0xf3): undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x189): undefined reference to `g_module_open'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1a7): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1d0): undefined reference to `g_module_close'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x1fe): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x214): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x22a): undefined reference to `g_module_symbol'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x26e): undefined reference to `g_module_error'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(modules.o): In function `pango_module_load':
+(.text+0x2a9): undefined reference to `g_module_error'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(libpango_thai_lang_la-thai-lang.o): In function `thai_engine_break':
+(.text+0x8b): undefined reference to `th_uni2tis'
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libpango-1.0.a(libpango_thai_lang_la-thai-lang.o): In function `thai_engine_break':
+(.text+0xe4): undefined reference to `th_brk'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `FcFreeTypeUseNames':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:2068: undefined reference to `FT_Has_PS_Glyph_Names'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:2068: undefined reference to `FT_Has_PS_Glyph_Names'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `IA__FcFreeTypeQueryFace':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1495: undefined reference to `FT_Get_PS_Font_Info'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1649: undefined reference to `FT_Get_BDF_Property'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1670: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `FcGetPixelSize':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1034: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o): In function `IA__FcFreeTypeQueryFace':
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1530: undefined reference to `FT_Get_BDF_Property'
+/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1537: undefined reference to `FT_Get_BDF_Property'
+/usr/local/lib/libfontconfig.a(fcfreetype.o):/home/administrator/install/fontconfig-2.10.1/src/fcfreetype.c:1560: more undefined references to `FT_Get_BDF_Property' follow
+/usr/local/lib/libfontconfig.a(fcxml.o): In function `FcConfigMessage':
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:503: undefined reference to `xmlSAX2GetLineNumber'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:506: undefined reference to `xmlSAX2GetLineNumber'
+/usr/local/lib/libfontconfig.a(fcxml.o): In function `IA__FcConfigParseAndLoad':
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2926: undefined reference to `xmlCreatePushParserCtxt'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2965: undefined reference to `xmlParseChunk'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2979: undefined reference to `xmlFreeParserCtxt'
+/home/administrator/install/fontconfig-2.10.1/src/fcxml.c:2971: undefined reference to `xmlCtxtGetLastError'
+collect2: ld returned 1 exit status
+make: *** [menu] Error 1

@@ -1,0 +1,601 @@
+/* CSS Document */
+
+body {
+	background-color: #fff; background-image:none;
+}
+
+.wrap {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 960px; height:auto
+}
+#footer {
+	PADDING-BOTTOM: 8px; MARGIN: 0px auto 20px; WIDTH: 960px; BACKGROUND: #469aac; COLOR: #fff; BORDER-TOP: #999999 1px solid; PADDING-TOP: 8px
+}
+.heade .mains .fz_indexa #wrap .blog_left {
+	TEXT-ALIGN: left; WIDTH: 730px; FLOAT: left
+}
+.top1_left {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 10px; WIDTH: 250px; FLOAT: left
+}
+.top1 {
+	WIDTH: 960px
+}
+.side1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; WIDTH: 220px; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.sidebox H3 {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 29px; PADDING-LEFT: 1em; HEIGHT: 29px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: 700
+}
+.sidebox1 {
+	
+}
+.sidebox H3 {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 29px; PADDING-LEFT: 1em; HEIGHT: 29px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: 700
+}
+.numberlist LI {
+	LIST-STYLE-POSITION: outside; TEXT-ALIGN: left; LIST-STYLE-TYPE: decimal; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 34px
+}
+.userblog_img {
+	WIDTH: 142px; FLOAT: left
+}
+.userblog_img IMG {
+	PADDING-BOTTOM: 11px; PADDING-LEFT: 11px; WIDTH: 120px; PADDING-RIGHT: 11px; HEIGHT: 120px; PADDING-TOP: 11px
+}
+.userblog_info {
+	WIDTH: 530px; FLOAT: right; COLOR: #666; MARGIN-LEFT: 0px
+}
+.userblog_info H4 {
+	BORDER-BOTTOM: #e6e7e1 1px dashed; LINE-HEIGHT: 26px; HEIGHT: 26px; FONT-SIZE: 14px
+}
+.userblog_info H4 SPAN {
+	FONT-WEIGHT: normal
+}
+.userblog_box {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px; _height: 1%
+}
+.userblog_box P {
+	LINE-HEIGHT: 20px; COLOR: #333; FONT-SIZE: 14px
+}
+.fz_nrleft1 {
+	BORDER-BOTTOM: #53aae4 1px solid; BORDER-LEFT: #53aae4 1px solid; PADDING-BOTTOM: 10px; FLOAT: none; BORDER-TOP: #53aae4 1px solid; BORDER-RIGHT: #53aae4 1px solid
+}
+
+.xxk_add h1{ float:left;
+	}
+.Soft_xxk_title1 {	BACKGROUND-IMAGE: url(../images/dhl_b.gif);
+	TEXT-ALIGN: left; PADDING-LEFT: 20px; BACKGROUND-REPEAT: repeat-x; MARGIN-BOTTOM: 0px; HEIGHT: 34px
+}
+.content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 690px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 0px; PADDING-TOP: 0px
+}
+.blog_hysj UL {
+	PADDING-TOP: 5px
+}
+.blog_hysj LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.blog_hysj {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.blogcontent {
+	PADDING-LEFT: 0px
+}
+.storeinfo {
+	PADDING-TOP: 5px
+}
+.blog_padding {
+	PADDING: 10px 20px 0px 20px;
+	line-height: 24px; text-align:left;
+	width:918px; overflow:hidden; height: auto;
+	font-size:13px;
+}
+.blog_padding1 {
+	PADDING: 10px 50px 0px 50px;
+	line-height: 24px; text-align:left
+}
+.blog_padding2 {
+	PADDING: 10px 50px 0px 50px;
+	line-height: 24px; text-align:left; font-size:13px;
+}
+
+.itemtitle {
+	WIDTH: 678px; MARGIN-BOTTOM: 0px; HEIGHT: 30px; OVERFLOW: hidden
+}
+.clear_blog {
+	LINE-HEIGHT: 0px; HEIGHT: 0px; OVERFLOW: hidden
+}
+.index_aleft {
+	WIDTH: 220px; FLOAT: none
+}
+.index_200nr_blog {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.viebox1 {
+	TEXT-ALIGN: right; MARGIN-TOP: 6px; BORDER-TOP: #e6e7e1 1px dashed
+}
+.index_aleft .index_200nr P {
+	LINE-HEIGHT: 19px; PADDING-LEFT: 0px
+}
+.ygbq_blog LI {
+	WIDTH: 100px; PADDING-RIGHT: 5px; FLOAT: left
+}
+.avatar_list1 LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; WIDTH: 68px; FLOAT: left; OVERFLOW: hidden
+}
+.avatar_list1 LI IMG {
+	WIDTH: 48px; HEIGHT: 48px
+}
+.avatar_list1 P {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 68px; WHITE-SPACE: nowrap; HEIGHT: 16px; OVERFLOW: hidden
+}
+.numberlist LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 25px
+}
+.userblog_box {
+	MARGIN: 0px
+}
+.blogctrl {
+	WIDTH: 616px; FLOAT: none; FONT-SIZE: 12px; PADDING-TOP: 6px
+}
+.blog_table {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.blogtit {
+	MARGIN: 0px;  BORDER-BOTTOM-WIDTH: 0px; PADDING-TOP: 6px
+}
+.top {
+	WIDTH: 616px; BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.top P {
+	WIDTH: 608px; BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.bot {
+	BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.bot P {
+	BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.mid {
+	BORDER-BOTTOM: #ccc 0px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: #f7f7f7; OVERFLOW: hidden; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.c {
+	BACKGROUND: url(xx.gif)
+}
+.c {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 12px; ZOOM: 1; BACKGROUND-POSITION: right top; MARGIN-LEFT: 12px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.c .blogctrl {
+	MARGIN-TOP: 10px
+}
+.quote {
+	TEXT-ALIGN: left; MARGIN: 15px 0px -15px; WIDTH: 616px; COLOR: #999; FONT-SIZE: 12px
+}
+.quote .top {
+	BACKGROUND-POSITION: 0px -34px
+}
+.quote .top P {
+	BACKGROUND-POSITION: right top; MARGIN-LEFT: 8px
+}
+.quote .bot {
+	BACKGROUND-POSITION: 0px -42px; HEIGHT: 17px
+}
+.quote .bot P {
+	BACKGROUND-POSITION: 100% -8px; HEIGHT: 17px; MARGIN-LEFT: 8px
+}
+.bloglist .avatar {
+	POSITION: static; WIDTH: 62px; FLOAT: left; MARGIN-LEFT: 0px
+}
+.bloglist LI {
+	BORDER-BOTTOM: #e6e7e1 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto !important; PADDING-TOP: 10px
+}
+.c {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; ZOOM: 1; BACKGROUND-POSITION: right top; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.mid {
+	BORDER-BOTTOM: #ccc 0px solid; TEXT-ALIGN: left; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; WIDTH: 614px !important; BACKGROUND: #f7f7f7; OVERFLOW: hidden; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px; _width: 614px
+}
+.comment {
+	TEXT-ALIGN: center; MARGIN: 8px 0px; WIDTH: 616px; FONT-SIZE: 12px
+}
+.comment .top {
+	BACKGROUND-IMAGE: url(images/bg_comment_11a.gif)
+}
+.comment .top P {
+	BACKGROUND-IMAGE: url(images/bg_comment_1a.gif)
+}
+.comment .bot {
+	BACKGROUND-IMAGE: url(images/bg_comment_1a.gif)
+}
+.comment .bot P {
+	BACKGROUND-IMAGE: url(images/bg_comment_11a.gif)
+}
+.comment .top {
+	BACKGROUND-POSITION: right top; HEIGHT: 17px
+}
+.comment .top P {
+	WIDTH: 616px; BACKGROUND-POSITION: left top; HEIGHT: 17px; MARGIN-RIGHT: 0px
+}
+.comment .bot {
+	MARGIN-TOP: 0px; WIDTH: 616px; BACKGROUND-POSITION: left bottom
+}
+.comment .bot P {
+	ZOOM: 1; BACKGROUND-POSITION: right bottom; HEIGHT: 8px
+}
+.pmb_btn .clew_btn {
+	TEXT-ALIGN: right; WIDTH: 50%; PADDING-RIGHT: 10px; FLOAT: right
+}
+.shop_price_ul {
+	TEXT-ALIGN: center; WIDTH: 690px; FLOAT: none
+}
+.shop_price_ul LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; TEXT-ALIGN: left; PADDING-BOTTOM: 9px; LIST-STYLE-TYPE: none; WIDTH: 690px; PADDING-RIGHT: 0px; FLOAT: none; PADDING-TOP: 11px
+}
+#menu_fz {
+	WIDTH: 960px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 36px; MARGIN-LEFT: auto; FONT-SIZE: 14px; FONT-WEIGHT: 400; MARGIN-RIGHT: auto; _bottom: 0px
+}
+.menu_raght_fz {
+	TEXT-ALIGN: right; LINE-HEIGHT: 36px; WIDTH: 305px; FLOAT: right; HEIGHT: 36px
+}
+#menu_fz LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; WIDTH: 105px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 36px; COLOR: #fff; FONT-SIZE: 14px
+}
+#menu_fz A:hover {
+	COLOR: #ff9; TEXT-DECORATION: none
+}
+#menu_fz LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; BACKGROUND-COLOR: transparent; WIDTH: 105px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 36px; FONT-WEIGHT: bold; MARGIN-RIGHT: 0px
+}
+.Sy1 {
+	FONT-SIZE: 11px
+}
+.heade {
+	BACKGROUND-COLOR: #fff; WIDTH: 960px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.top2 {
+	PADDING-BOTTOM: 0px; WIDTH: 962px; PADDING-TOP: 4px
+}
+.top2_left_logo {
+	PADDING-BOTTOM: 1px; MARGIN-TOP: 2px; WIDTH: 180px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 65px; PADDING-TOP: 0px
+}
+.top2_center {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; WIDTH: 486px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 62px; PADDING-TOP: 5px
+}
+.top2_right {
+ TEXT-ALIGN: right; LINE-HEIGHT: 19px; WIDTH: 190px; PADDING-RIGHT: 6px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; FLOAT: right; HEIGHT: 71px
+}
+.top2_right1 {
+	HEIGHT: 32px
+}
+#footer {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+#footer A {
+	COLOR: #1e50a2
+}
+#footer A:hover {
+	COLOR: #1e50a2
+}
+footlink #footlink {
+	COLOR: #000000
+}
+.xx_lei li{
+	float:left;
+	font-family:"ËÎÌו";
+	width: 168px;
+	padding-right: 1px;
+	line-height: 24px;
+	background:url(cxgg_aro.gif) no-repeat 4px 9px;
+	padding-left: 12px;
+	text-align: left;
+}
+.xx_lei li a{ color:#333}
+#wrap{min-height:100px;background-color:#FFF;clear:both;}* html #wrap{min-height:100px;}
+.xxk_add h1{ font-size:14px}
+.keywords1{ color:#333333}
+h1{
+	text-align: center;
+	font-size: 18px;
+	color: #0066CC;
+}
+hr{
+	color: #bacfd8;
+	height: 1px;
+	font-size: 1px;
+}
+h2{ font-size:14px;}
+.fz_nrleft1 table{ border-bottom: 1px solid #b6e0fd; border-left:1px solid #b6e0fd; cellspacing:1px}
+.fz_nrleft1 td,th{ border-right: 1px solid #b6e0fd; border-top: 1px solid #b6e0fd; padding:3px;} 
+.fz_nrleft1 th{ background: #f5fafe; font-weight:bold; text-align:center}
+.dede_pages { margin-bottom:-24px; }
+.pagelist li{ padding:0 5px; display:inline;}
+.heade .mains .fz_indexa #wrap .fz_nrleft1 .blog_padding2 table{ width:100%}
+.gjz{ position:absolute; bottom:20000px}
+.dhcx{text-align:left; line-height:25px; font-size:13px; padding-left:20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------*/
+
+
+
+.wrap {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 960px
+}
+#footer {
+	PADDING-BOTTOM: 8px; MARGIN: 0px auto 20px; WIDTH: 960px; BACKGROUND: #469aac; COLOR: #fff; BORDER-TOP: #999999 1px solid; PADDING-TOP: 8px
+}
+.heade .mains .fz_indexa #wrap .blog_left {
+	TEXT-ALIGN: left; WIDTH: 730px; FLOAT: left
+}
+.top1_left {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 10px; WIDTH: 250px; FLOAT: left
+}
+.top1 {
+	WIDTH: 960px
+}
+.side1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; WIDTH: 220px; FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.sidebox H3 {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 29px; PADDING-LEFT: 1em; HEIGHT: 29px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: 700
+}
+.sidebox1 {
+	
+}
+.sidebox H3 {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 29px; PADDING-LEFT: 1em; HEIGHT: 29px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: 700
+}
+.numberlist LI {
+	LIST-STYLE-POSITION: outside; TEXT-ALIGN: left; LIST-STYLE-TYPE: decimal; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 34px
+}
+.userblog_img {
+	WIDTH: 142px; FLOAT: left
+}
+.userblog_img IMG {
+	PADDING-BOTTOM: 11px; PADDING-LEFT: 11px; WIDTH: 120px; PADDING-RIGHT: 11px; HEIGHT: 120px; PADDING-TOP: 11px
+}
+.userblog_info {
+	WIDTH: 530px; FLOAT: right; COLOR: #666; MARGIN-LEFT: 0px
+}
+.userblog_info H4 {
+	BORDER-BOTTOM: #e6e7e1 1px dashed; LINE-HEIGHT: 26px; HEIGHT: 26px; FONT-SIZE: 14px
+}
+.userblog_info H4 SPAN {
+	FONT-WEIGHT: normal
+}
+.userblog_box {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px; _height: 1%
+}
+.userblog_box P {
+	LINE-HEIGHT: 20px; COLOR: #333; FONT-SIZE: 14px
+}
+.fz_nrleft1 {
+	BORDER-BOTTOM: #53aae4 1px solid; BORDER-LEFT: #53aae4 1px solid; PADDING-BOTTOM: 10px; FLOAT: none; BORDER-TOP: #53aae4 1px solid; BORDER-RIGHT: #53aae4 1px solid
+}
+.xxk_add {
+TEXT-ALIGN: left; LINE-HEIGHT: 34px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 34px; COLOR: #1D67A8; FONT-SIZE: 14px; FONT-WEIGHT: bold; MARGIN-RIGHT: 3px; PADDING-TOP: 0px
+}
+.Soft_xxk_title1 {	BACKGROUND-IMAGE: url(../images/dhl_b.gif);
+	TEXT-ALIGN: left; PADDING-LEFT: 20px; BACKGROUND-REPEAT: repeat-x; MARGIN-BOTTOM: 0px; HEIGHT: 34px
+}
+.content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 690px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 0px; PADDING-TOP: 0px
+}
+.blog_hysj UL {
+	PADDING-TOP: 5px
+}
+.blog_hysj LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.blog_hysj {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.blogcontent {
+	PADDING-LEFT: 0px
+}
+.storeinfo {
+	PADDING-TOP: 5px
+}
+
+.itemtitle {
+	WIDTH: 678px; MARGIN-BOTTOM: 0px; HEIGHT: 30px; OVERFLOW: hidden
+}
+.clear_blog {
+	LINE-HEIGHT: 0px; HEIGHT: 0px; OVERFLOW: hidden
+}
+.index_aleft {
+	WIDTH: 220px; FLOAT: none
+}
+.index_200nr_blog {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.viebox1 {
+	TEXT-ALIGN: right; MARGIN-TOP: 6px; BORDER-TOP: #e6e7e1 1px dashed
+}
+.index_aleft .index_200nr P {
+	LINE-HEIGHT: 19px; PADDING-LEFT: 0px
+}
+.ygbq_blog LI {
+	WIDTH: 100px; PADDING-RIGHT: 5px; FLOAT: left
+}
+.avatar_list1 LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; WIDTH: 68px; FLOAT: left; OVERFLOW: hidden
+}
+.avatar_list1 LI IMG {
+	WIDTH: 48px; HEIGHT: 48px
+}
+.avatar_list1 P {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WIDTH: 68px; WHITE-SPACE: nowrap; HEIGHT: 16px; OVERFLOW: hidden
+}
+.numberlist LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 25px
+}
+.userblog_box {
+	MARGIN: 0px
+}
+.blogctrl {
+	WIDTH: 616px; FLOAT: none; FONT-SIZE: 12px; PADDING-TOP: 6px
+}
+.blog_table {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.blogtit {
+	MARGIN: 0px;  BORDER-BOTTOM-WIDTH: 0px; PADDING-TOP: 6px
+}
+.top {
+	WIDTH: 616px; BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.top P {
+	WIDTH: 608px; BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.bot {
+	BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.bot P {
+	BACKGROUND: url(images/bg_quote_1a.gif) no-repeat; HEIGHT: 8px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.mid {
+	BORDER-BOTTOM: #ccc 0px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: #f7f7f7; OVERFLOW: hidden; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.c {
+	BACKGROUND: url(xx.gif)
+}
+.c {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 12px; ZOOM: 1; BACKGROUND-POSITION: right top; MARGIN-LEFT: 12px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.c .blogctrl {
+	MARGIN-TOP: 10px
+}
+.quote {
+	TEXT-ALIGN: left; MARGIN: 15px 0px -15px; WIDTH: 616px; COLOR: #999; FONT-SIZE: 12px
+}
+.quote .top {
+	BACKGROUND-POSITION: 0px -34px
+}
+.quote .top P {
+	BACKGROUND-POSITION: right top; MARGIN-LEFT: 8px
+}
+.quote .bot {
+	BACKGROUND-POSITION: 0px -42px; HEIGHT: 17px
+}
+.quote .bot P {
+	BACKGROUND-POSITION: 100% -8px; HEIGHT: 17px; MARGIN-LEFT: 8px
+}
+.bloglist .avatar {
+	POSITION: static; WIDTH: 62px; FLOAT: left; MARGIN-LEFT: 0px
+}
+.bloglist LI {
+	BORDER-BOTTOM: #e6e7e1 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto !important; PADDING-TOP: 10px
+}
+.c {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; ZOOM: 1; BACKGROUND-POSITION: right top; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.mid {
+	BORDER-BOTTOM: #ccc 0px solid; TEXT-ALIGN: left; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; WIDTH: 614px !important; BACKGROUND: #f7f7f7; OVERFLOW: hidden; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px; _width: 614px
+}
+.comment {
+	TEXT-ALIGN: center; MARGIN: 8px 0px; WIDTH: 616px; FONT-SIZE: 12px
+}
+.comment .top {
+	BACKGROUND-IMAGE: url(images/bg_comment_11a.gif)
+}
+.comment .top P {
+	BACKGROUND-IMAGE: url(images/bg_comment_1a.gif)
+}
+.comment .bot {
+	BACKGROUND-IMAGE: url(images/bg_comment_1a.gif)
+}
+.comment .bot P {
+	BACKGROUND-IMAGE: url(images/bg_comment_11a.gif)
+}
+.comment .top {
+	BACKGROUND-POSITION: right top; HEIGHT: 17px
+}
+.comment .top P {
+	WIDTH: 616px; BACKGROUND-POSITION: left top; HEIGHT: 17px; MARGIN-RIGHT: 0px
+}
+.comment .bot {
+	MARGIN-TOP: 0px; WIDTH: 616px; BACKGROUND-POSITION: left bottom
+}
+.comment .bot P {
+	ZOOM: 1; BACKGROUND-POSITION: right bottom; HEIGHT: 8px
+}
+.pmb_btn .clew_btn {
+	TEXT-ALIGN: right; WIDTH: 50%; PADDING-RIGHT: 10px; FLOAT: right
+}
+.shop_price_ul {
+	TEXT-ALIGN: center; WIDTH: 690px; FLOAT: none
+}
+.shop_price_ul LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; TEXT-ALIGN: left; PADDING-BOTTOM: 9px; LIST-STYLE-TYPE: none; WIDTH: 690px; PADDING-RIGHT: 0px; FLOAT: none; PADDING-TOP: 11px
+}
+#menu_fz {
+	WIDTH: 960px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 36px; MARGIN-LEFT: auto; FONT-SIZE: 14px; FONT-WEIGHT: 400; MARGIN-RIGHT: auto; _bottom: 0px
+}
+.menu_raght_fz {
+	TEXT-ALIGN: right; LINE-HEIGHT: 36px; WIDTH: 305px; FLOAT: right; HEIGHT: 36px
+}
+#menu_fz LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; WIDTH: 105px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 36px; COLOR: #fff; FONT-SIZE: 14px
+}
+#menu_fz A:hover {
+	COLOR: #ff9; TEXT-DECORATION: none
+}
+#menu_fz LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 36px; BACKGROUND-COLOR: transparent; WIDTH: 105px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 36px; FONT-WEIGHT: bold; MARGIN-RIGHT: 0px
+}
+.Sy1 {
+	FONT-SIZE: 11px
+}
+.heade {
+	BACKGROUND-COLOR: #fff; WIDTH: 960px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.top2 {
+	PADDING-BOTTOM: 0px; WIDTH: 962px; PADDING-TOP: 4px
+}
+.top2_left_logo {
+	PADDING-BOTTOM: 1px; MARGIN-TOP: 2px; WIDTH: 180px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 65px; PADDING-TOP: 0px
+}
+.top2_center {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; WIDTH: 486px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 62px; PADDING-TOP: 5px
+}
+.top2_right {
+ TEXT-ALIGN: right; LINE-HEIGHT: 19px; WIDTH: 190px; PADDING-RIGHT: 6px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; FLOAT: right; HEIGHT: 71px
+}
+.top2_right1 {
+	HEIGHT: 32px
+}
+#footer {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+#footer A {
+	COLOR: #1e50a2
+}
+#footer A:hover {
+	COLOR: #1e50a2
+}
+footlink #footlink {
+	COLOR: #000000
+}
+.xx_lei li{
+	float:left;
+	font-family:"ËÎÌו";
+	width: 166px;
+	padding-right: 1px;
+	line-height: 24px;
+	background:url(cxgg_aro.gif) no-repeat 4px 9px;
+	padding-left: 12px;
+}
+.xx_lei li a{ color:#333}
+.xxk_add h3{ font-size:14px}
+
+.top2_center1 {	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 40px; WIDTH: 486px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 62px; PADDING-TOP: 5px
+}
